@@ -1,11 +1,11 @@
 import React, { useRef } from 'react';
 import { ImageBackground, Image, Animated, View, StyleSheet, PanResponder, Text, Dimensions, Pressable } from 'react-native';
-import { Button, TextInput } from 'react-native-web';
+import { TextInput } from 'react-native-web';
 
 const App = () => {
   return (
     <ImageBackground
-      source={require("../assets/than-tai.jpg")} // Path to your image file
+      source={require("../assets/than-tai.jpg")}
       style={styles.background}
       resizeMode="cover"
     >
@@ -78,9 +78,9 @@ const styles = StyleSheet.create({
   },
   background: {
     flex: 1,
-    width: '100%', // Take up entire width
-    height: '100%', // Take up entire height
-    resizeMode: 'cover', // or 'contain' for different resizing modes
+    width: '100%',
+    height: '100%',
+    resizeMode: 'cover',
   },
   Form: {
     alignItems: 'center',
